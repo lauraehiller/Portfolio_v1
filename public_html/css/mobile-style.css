@@ -1,0 +1,496 @@
+/*------------------------------------------------------------------*/
+/*                                                                  */
+/*                     Small devices                                */
+/*                                                                  */
+/*------------------------------------------------------------------*/
+@media only screen and (max-width: 767px){
+    .logo{
+        top: 40%;
+        height: 20vmin;
+    }
+    /*---------------- NavBar ------------------ */
+    .navbar .navbar-header .navbar-brand img{
+        padding-left: 0rem;  
+    } 
+    .navbar .collapse .navbar-nav{
+        top: 15vmin;
+        right: 0vmin;
+        background: black;
+        box-shadow: 0 0 10vmin var(--Glow-color);
+        opacity: .9;
+        text-align: center; 
+        font-size: 6vmin;
+        border-radius: 20px;
+        width: 100%;
+        margin: 1vmin 1vmin 1vmin 40vmin;
+        padding: 1vmin 2vmin 1vmin 1vmin;
+    }
+    .navbar .collapse .navbar-nav .nav-link{
+        color: white;
+    } 
+
+    /*---------------- Home ------------------ */
+    .home {
+        padding: 20vmin 10vmin 15vmin 10vmin;
+    }
+    .home .box h1{
+        font-size: 20vmin;
+    }
+    .home .box h2{
+        font-size: 8vmin;
+    }
+    .home .box p{
+        font-size: 6vmin;
+    }
+
+    /*---------------- Aboutme ------------------ */
+    .aboutme {
+        padding: 20vmin 10vmin 15vmin 10vmin;
+    }
+    .aboutme h1{
+        margin: 0vmin 5vmin 5vmin 5vmin;
+    }
+    .aboutme .box .row .col-lg-6 .panel p{
+        font-size: 6vmin;
+        text-align: center;
+        color: white;
+    }
+
+    /*---------------- Skills ------------------ */
+    .skills {
+        padding: 5vmin 5vmin 15vmin 5vmin;
+    }
+    .skills h1{
+        margin: 0vmin 5vmin 5vmin 5vmin;
+    }
+    .skills .cards .row .col-lg-4 .card {
+        margin: 5vmin 10vmin 5vmin 10vmin;
+    }
+    .skills .cards .row .col-lg-4 .card .card-title{
+        font-size: 5vmin;
+    } 
+    .skills .cards .row .col-lg-4 .card p{
+        font-size: 4vmin;
+    }
+
+    /*---------------- Experience ------------------ */
+    .experience {
+        padding: 5vmin 5vmin 5vmin 5vmin;
+    }
+    .experience h1{
+        margin: 0vmin 5vmin 5vmin 5vmin;
+    }
+    
+    .experience .cards {
+        margin: 10vmin 5vmin 20vmin 5vmin;
+    }
+
+    .experience .cards .row .col-lg-4 .card {
+        margin: 0vmin 0vmin 10vmin 0vmin;
+        padding: 1vmin 1vmin;
+    }
+    .experience .cards .row .col-lg-4 .card .card-title{
+        font-size: 6vmin;
+    }
+    .experience .cards .row .col-lg-4 .card .card-subtitle{
+        font-size: 4vmin;
+    }
+    .experience .cards .row .col-lg-4 .card .card-pretitle{
+        font-size: 4vmin;
+    }
+    .experience .cards .row .col-lg-4 .card .card-text{
+        margin: 2vmin 0vmin 0vmin 0vmin;
+        font-size: 5vmin;
+        color: white;
+    }
+
+    /*---------------- Projects ------------------ */
+    .projects {
+        padding: 5vmin 5vmin 5vmin 5vmin;
+    }
+    .projects h1{
+        margin: 0vmin 5vmin 5vmin 5vmin;
+    }
+    .projects .box{
+        padding: 5vmin 5vmin 5vmin 5vmin;
+        margin: 5vmin 5vmin 10vmin 5vmin;
+    }
+
+    .projects .panel h5{
+        font-size: 6vmin;
+    }
+    .projects .panel  h4{
+        font-size: 4vmin;
+    }
+    .projects .panel p{
+        font-size: 4vmin;
+    }
+
+    
+    /*---------------- Buttons ------------------ */
+    .btn.outline {
+        padding: 1vmin 1vmin;
+        margin: 1vmin;
+    }
+    .btn-primary.outline {
+        font-size: 5vmin;
+    }
+
+    /*---------------- Social Media ------------------ */
+    .social-icon-bar {
+        position: fixed;
+        bottom: 0%;
+        left: 0vmin;
+    }
+
+    /*---------------- Footer ------------------ */
+    .footer {
+        padding: 5vmin 5vmin 5vmin 5vmin;
+    }
+    
+}
+
+/*------------------------------------------------------------------*/
+/*                                                                  */
+/*                     Medium devices                               */
+/*                                                                  */
+/*------------------------------------------------------------------*/
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+
+    .logo{
+        top: 40%;
+        height: 20vmin;
+    }
+    /*---------------- NavBar ------------------ */
+    .navbar .navbar-header .navbar-brand img{
+        padding-left: 0rem;  
+    } 
+    .navbar .collapse .navbar-nav{
+        top: 15vmin;
+        right: 0vmin;
+        background: black;
+        box-shadow: 0 0 10vmin var(--Glow-color);
+        outline: 1px solid var(--Glow-accent-color);
+        opacity: .9;
+        text-align: center; 
+        font-size: 6vmin;
+        width: 100%;
+        margin: 1vmin 1vmin 1vmin 40vmin;
+        padding: 1vmin 2vmin 1vmin 1vmin;
+    }
+    .navbar .collapse .navbar-nav .nav-link{
+        color: white;
+    } 
+
+    /*---------------- Home ------------------ */
+    .home {
+        padding: 20vmin 10vmin 15vmin 10vmin;
+    }
+    .home .box h1{
+        font-size: 20vmin;
+    }
+    .home .box h2{
+        font-size: 8vmin;
+    }
+    .home .box p{
+        font-size: 6vmin;
+    }
+
+    /*---------------- Aboutme ------------------ */
+    .aboutme {
+        padding: 20vmin 10vmin 15vmin 10vmin;
+    }
+    .aboutme h1{
+        margin: 0vmin 5vmin 5vmin 5vmin;
+    }
+    .aboutme .box .row .col-lg-6 .panel p{
+        font-size: 5vmin;
+        text-align: center;
+        color: white;
+    }
+
+    /*---------------- Skills ------------------ */
+    .skills {
+        padding: 5vmin 5vmin 15vmin 5vmin;
+    }
+    .skills h1{
+        margin: 0vmin 5vmin 5vmin 5vmin;
+    }
+    .skills .cards .row .col-lg-4 .card {
+        margin: 5vmin 10vmin 5vmin 10vmin;
+    }
+    .skills .cards .row .col-lg-4 .card .card-title{
+        font-size: 5vmin;
+    } 
+    .skills .cards .row .col-lg-4 .card p{
+        font-size: 3.5vmin;
+    }
+
+
+    /*---------------- Experience ------------------ */
+    .experience {
+        padding: 5vmin 5vmin 5vmin 5vmin;
+    }
+    .experience h1{
+        margin: 0vmin 5vmin 5vmin 5vmin;
+    }
+    
+    .experience .cards {
+        margin: 10vmin 5vmin 20vmin 5vmin;
+    }
+
+    .experience .cards .row .col-lg-4 .card {
+        margin: 0vmin 0vmin 10vmin 0vmin;
+        padding: 1vmin 1vmin;
+    }
+    .experience .cards .row .col-lg-4 .card .card-title{
+        font-size: 6vmin;
+    }
+    .experience .cards .row .col-lg-4 .card .card-subtitle{
+        font-size: 4vmin;
+    }
+    .experience .cards .row .col-lg-4 .card .card-pretitle{
+        font-size: 4vmin;
+    }
+    .experience .cards .row .col-lg-4 .card .card-text{
+        margin: 2vmin 0vmin 0vmin 0vmin;
+        font-size: 5vmin;
+        color: white;
+    }
+
+    /*---------------- Projects ------------------ */
+    .projects {
+        padding: 5vmin 5vmin 5vmin 5vmin;
+    }
+    .projects h1{
+        margin: 0vmin 5vmin 5vmin 5vmin;
+    }
+    .projects .box{
+        padding: 5vmin 5vmin 5vmin 5vmin;
+        margin: 5vmin 5vmin 10vmin 5vmin;
+    }
+
+    .projects .panel h5{
+        font-size: 6vmin;
+    }
+    .projects .panel  h4{
+        font-size: 4vmin;
+    }
+    .projects .panel p{
+        font-size: 4vmin;
+    }
+
+    
+    /*---------------- Buttons ------------------ */
+    .btn.outline {
+        padding: 1vmin 1vmin;
+        margin: 1vmin;
+    }
+    .btn-primary.outline {
+        font-size: 4vmin;
+    }
+
+    /*---------------- Social Media ------------------ */
+    .social-icon-bar {
+        position: fixed;
+        bottom: 0%;
+        left: 0vmin;
+    }
+
+    /*---------------- Footer ------------------ */
+    .footer {
+        padding: 5vmin 5vmin 5vmin 5vmin;
+    }   
+}
+/*------------------------------------------------------------------*/
+/*                                                                  */
+/*                     Medium-Large devices                         */
+/*                                                                  */
+/*------------------------------------------------------------------*/
+@media only screen and (min-width: 1024px) and (max-width: 1280px){
+
+
+    .logo{
+        top: 40%;
+        height: 20vmin;
+    }
+    /*---------------- NavBar ------------------ */
+    .navbar .navbar-header .navbar-brand img{
+        padding-left: 0rem;  
+    } 
+    .navbar .collapse .navbar-nav{
+        top: 1vmin;
+        right: 0vmin;
+        background: transparent;
+        opacity: .9;
+        text-align: center; 
+        font-size: 3vmin;
+        display: inline-flex;
+        margin: 1vmin 1vmin 1vmin 40vmin;
+        padding: 1vmin 2vmin 1vmin 1vmin;
+    }
+    .navbar .collapse .navbar-nav .nav-link{
+        color: white;
+    } 
+
+    /*---------------- Home ------------------ */
+    .home {
+        padding: 20vmin 10vmin 15vmin 10vmin;
+    }
+    .home .box h1{
+        font-size: 18vmin;
+    }
+    .home .box h2{
+        font-size: 8vmin;
+    }
+    .home .box p{
+        font-size: 6vmin;
+    }
+
+    /*---------------- Aboutme ------------------ */
+    .aboutme {
+        padding: 20vmin 10vmin 15vmin 10vmin;
+    }
+    .aboutme h1{
+        margin: 0vmin 5vmin 5vmin 5vmin;
+    }
+    .aboutme .box .row .col-lg-6 .panel p{
+        font-size: 4vmin;
+        text-align: center;
+        color: white;
+    }
+
+    /*---------------- Skills ------------------ */
+    .skills {
+        padding: 5vmin 5vmin 15vmin 5vmin;
+    }
+    .skills h1{
+        margin: 0vmin 5vmin 5vmin 5vmin;
+    }
+    .skills .cards .row .col-lg-4 .card {
+        margin: 5vmin 10vmin 5vmin 10vmin;
+    }
+    .skills .cards .row .col-lg-4 .card .card-title{
+        font-size: 2.8vmin;
+    } 
+    .skills .cards .row .col-lg-4 .card p{
+        font-size: 2.8vmin;
+    }
+
+    /*---------------- Experience ------------------ */
+    .experience {
+        padding: 5vmin 5vmin 5vmin 5vmin;
+    }
+    .experience h1{
+        margin: 0vmin 5vmin 5vmin 5vmin;
+    }
+    
+    .experience .cards {
+        margin: 10vmin 5vmin 20vmin 5vmin;
+    }
+
+    .experience .cards .row .col-lg-4 .card {
+        margin: 0vmin 0vmin 10vmin 0vmin;
+        padding: 1vmin 1vmin;
+    }
+    .experience .cards .row .col-lg-4 .card .card-title{
+        font-size: 4vmin;
+    }
+    .experience .cards .row .col-lg-4 .card .card-subtitle{
+        font-size: 4vmin;
+    }
+    .experience .cards .row .col-lg-4 .card .card-pretitle{
+        font-size: 4vmin;
+    }
+    .experience .cards .row .col-lg-4 .card .card-text{
+        margin: 2vmin 0vmin 0vmin 0vmin;
+        font-size: 4vmin;
+        color: white;
+    }
+
+    /*---------------- Projects ------------------ */
+    .projects {
+        padding: 5vmin 5vmin 5vmin 5vmin;
+    }
+    .projects h1{
+        margin: 0vmin 5vmin 5vmin 5vmin;
+    }
+    .projects .box{
+        padding: 5vmin 5vmin 5vmin 5vmin;
+        margin: 5vmin 5vmin 10vmin 5vmin;
+    }
+
+    .projects .panel h5{
+        font-size: 6vmin;
+    }
+    .projects .panel  h4{
+        font-size: 3vmin;
+    }
+    .projects .panel p{
+        font-size: 3vmin;
+    }
+
+    
+    /*---------------- Buttons ------------------ */
+    .btn.outline {
+        padding: 1vmin 1vmin;
+        margin: 1vmin;
+    }
+    .btn-primary.outline {
+        font-size: 4vmin;
+    }
+
+    /*---------------- Social Media ------------------ */
+    .social-icon-bar {
+        position: fixed;
+        bottom: 0%;
+        left: 0vmin;
+    }
+
+    /*---------------- Footer ------------------ */
+    .footer {
+        padding: 5vmin 5vmin 5vmin 5vmin;
+    }   
+
+}
+
+
+/*------------------------------------------------------------------*/
+/*                                                                  */
+/*                     Parallax Scroll                              */
+/*                                                                  */
+/*------------------------------------------------------------------*/
+@media only screen and (max-device-width: 1024px) {
+    html, body {
+        /*background-image: url("../wp-content/uploads/Background.jpg");*/
+        background: rgb(27, 27, 27);
+    }
+    .home {
+      background-attachment: scroll;
+      background: transparent;
+    }
+    .aboutme {
+        background-attachment: scroll;
+        background: transparent;
+    }
+    .skills {
+        background-attachment: scroll;
+        background: transparent;
+    }
+    .coursework {
+        background-attachment: scroll;
+        background: transparent;
+    }
+    .experience {
+        background-attachment: scroll;
+        background: transparent;
+    }
+    .projects {
+        background-attachment: scroll;
+        background: transparent;
+    }
+    .footer {
+        background-attachment: scroll;
+        background: transparent;
+    }
+}
